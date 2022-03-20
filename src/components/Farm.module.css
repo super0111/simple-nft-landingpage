@@ -1,0 +1,51 @@
+.farm {
+    width: 49%;
+    padding: 18px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(21, 62, 103);
+}
+.header {
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.header_img {
+    width: 22px;
+    height: 36px;
+    margin-right: 8px;
+}
+.goFarm {
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(241, 60, 242);
+    text-decoration: underline;
+}
+.goFarm:hover {
+    color: white;
+}
+.apr_field {
+    padding-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+.text {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    .farm {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+.minTWAP {
+    width: 49%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(21, 62, 103);
+    min-height: unset;
+    padding: 30px 20px;
+}
+.ratio_img {
+    width: 45px;
+    margin-right: 12px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.text {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(229, 229, 229);
+}
+.progress {
+    font-size: 23px;
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1000px) {
+    .minTWAP {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

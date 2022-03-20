@@ -1,0 +1,76 @@
+.body {
+    padding: 60px 20px 0 20px;
+    max-width: 1070px;
+    margin: auto;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.text {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.total {
+    margin-top: 47px;
+    flex-direction: row;
+    font-size: 20px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background: linear-gradient(to left, rgb(2, 46, 89) 100%, rgba(21, 62, 103, 0.38) 50%, rgba(74, 125, 175, 0.56) 0%);
+}
+.total::before {
+    width: 145px!important;
+    height: 143px!important;
+    left: 12px!important;
+    bottom: 2px!important;
+}
+.total::before {
+    content: "";
+    position: absolute;
+    width: 94px;
+    height: 92px;
+    left: 12px;
+    bottom: 2px;
+    background-image: url("bg-tvl-left.7449613aab9e63ff22be.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.total::after {
+    width: 70px;
+    height: 97px;
+    right: 12px;
+    top: 0px;
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 95px;
+    right: 12px;
+    top: 0px;
+    background-image: url("download (2).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.total_price {
+    margin-left: 5px;
+    padding-left: 0px;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(64, 255, 90);
+}

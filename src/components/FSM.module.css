@@ -1,0 +1,145 @@
+.ftm {
+    width: 49%;
+    padding: 18px 22px 22px;
+    border-radius: 20px;
+    background-color: rgb(21, 62, 103);
+}
+.header {
+    font-size: 24px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(160, 231, 255);
+}
+.header_img {
+    margin-right: 10px;
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+    border-radius: 30%;
+    aspect-ratio: auto 52 / 52;
+}
+.title_field {
+
+}
+.title {
+    line-height: 1;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(160, 231, 255);
+}
+.view_contract {
+    font-size: 16px;
+    padding-top: 6px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(241, 60, 242);
+    text-decoration: none;
+}
+.view_contract:hover {
+    color: rgb(241, 60, 242);
+    text-decoration:underline;
+}
+.viewContract_icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+.price_field {
+    font-size: 24px;
+    margin-left: auto;
+}
+.price_name {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.ftm_value {
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: 500;
+    color: rgb(64, 255, 90);
+}
+.usd_price {
+    font-size: 14px;
+    text-align: right;
+    margin: 4px 0px 0px auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.body {
+    margin-top: 18px;
+    padding: 18px;
+    border-radius: 20px;
+    border: 1px solid rgb(39, 92, 138);
+    background-color: rgb(20, 57, 94);
+}
+.body_item {
+    padding-bottom: 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.text {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(229, 229, 229);
+}
+.line {
+    margin: 14px 10px 4px;
+    flex: 1 1 0%;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.16);
+}
+.number {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.metamask {
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    gap: 15px;
+}
+.metamask_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px 18px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 42px;
+    transition: all 0.2s ease-in-out 0s;
+    font-family: inherit;
+    background: transparent;
+}
+.metamask_btn:hover {
+    background-color: rgb(207, 207, 207);
+    opacity: 0.8;
+}
+.metamask_icon {
+    margin: 0px 0px 0px 5px;
+}
+.plus_icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .ftm {
+        width: 100%!important;
+        margin: 10px 0;
+    }
+}
